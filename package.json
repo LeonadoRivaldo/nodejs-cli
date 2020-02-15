@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-cli",
+  "version": "1.0.0",
+  "description": "nodejs command line interface, experimental project to create a tool to help developers using vanila nodejs and express to build componentes for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonadoRivaldo/nodejs-cli.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "nodejs-cli",
+    "javascript",
+    "js",
+    "es6",
+    "es5",
+    "vanilla",
+    "vanillajs"
+  ],
+  "author": "Leonardo Rivaldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeonadoRivaldo/nodejs-cli/issues"
+  },
+  "homepage": "https://github.com/LeonadoRivaldo/nodejs-cli#readme",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.0",
+    "@octokit/rest": "^16.43.1",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.131.0",
+    "touch": "^3.1.0"
+  }
+}
